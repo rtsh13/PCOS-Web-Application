@@ -27,9 +27,9 @@ def predict():
     prediction = model.predict(final_features)
     
     if prediction == 1:
-        return render_template('index.html', prediction_text='The Person has PCOS')
+        return render_template('index.html', prediction_text='The Person has PCOS with the accuracy of 90.79%')
     else :
-        return render_template('index.html',prediction_text = 'The Person does not have PCOS')
+        return render_template('index.html',prediction_text = 'The Person does not have PCOS with the accuracy of 90.79%')
         
 
 
