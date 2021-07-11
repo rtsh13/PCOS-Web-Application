@@ -5,10 +5,10 @@ This is a demo project to elaborate how Machine Learn Models are deployed on pro
 You must have Scikit Learn, Pandas (for Machine Leraning Model) and Flask (for API) installed.
 
 ### Project Structure
-This project has four major parts :
-1. model.py - This contains code fot our Machine Learning model to predict employee salaries absed on trainign data in 'hiring.csv' file.
+This project has three major parts :
+1. model.py - This contains code fot our Machine Learning model to predict employee salaries based on training data.
 2. app.py - This contains Flask APIs that receives employee details through GUI or API calls, computes the precited value based on our model and returns it.
-3. templates - This folder contains the HTML template to allow user to enter employee detail and displays the predicted employee salary.
+3. templates - This folder contains the HTML template.
 
 ### Running the project
 1. Ensure that you are in the project home directory. Create the machine learning model by running below command -
