@@ -1,5 +1,5 @@
-## ML-Model-Flask-Deployment
-This is a demo project to elaborate how Machine Learn Models are deployed on production using Flask API
+## ML-Model-Deployment
+This is a PCOS Predictive Analysis Engine deployed as WebApp on Heroku
 
 ### Prerequisites
 You must have Scikit Learn, Pandas (for Machine Leraning Model) and Flask (for API) installed.
