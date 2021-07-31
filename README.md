@@ -6,8 +6,8 @@ You must have Scikit Learn, Pandas (for Machine Leraning Model) and Flask (for A
 
 ### Project Structure
 This project has three major parts :
-1. model.py - This contains code fot our Machine Learning model to predict employee salaries based on training data.
-2. app.py - This contains Flask APIs that receives employee details through GUI or API calls, computes the precited value based on our model and returns it.
+1. model.py - This contains code for our Machine Learning model to predict based on training data.
+2. app.py - This contains Flask APIs that receives details through GUI or API calls, computes the precited value based on our model and returns it.
 3. templates - This folder contains the HTML template.
 
 ### Running the project
